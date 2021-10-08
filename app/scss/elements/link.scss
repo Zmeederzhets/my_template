@@ -1,0 +1,38 @@
+.link {
+    &-primary {
+        color: #22b971;
+        line-height: 1;
+        border: 1px solid transparent;
+        border-bottom-color: #22b971;
+        outline: none;
+        text-decoration: none;
+        transition: 0.25s all ease;
+
+        &:hover {
+            color: #22b971;
+            border-bottom-color: transparent;
+        }
+        &:focus-visible {
+            color: #22b971;
+            border: 1px solid #22b971;
+        }
+    }
+    &-secondary {
+        color: #a738ee;
+        line-height: 1;
+        border: 1px solid transparent;
+        border-bottom-color: #a738ee;
+        outline: none;
+        text-decoration: none;
+        transition: 0.25s all ease;
+
+        &:hover {
+            color: #a738ee;
+            border-bottom-color: transparent;
+        }
+        &:focus-visible {
+            color: #a738ee;
+            border: 1px solid #a738ee;
+        }
+    }
+}

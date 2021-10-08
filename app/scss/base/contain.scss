@@ -1,0 +1,11 @@
+.contain {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @include min-width(sm) {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}

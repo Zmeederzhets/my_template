@@ -1,0 +1,38 @@
+.button {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 0;
+    font: normal 16px/1.4 $OpenSans;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+
+    &:disabled,
+    &-disabled {
+        cursor: default;
+        opacity: 0.65;
+    }
+
+    &-primary {
+        padding: 8px 20px;
+        background-color: #fde247;
+        color: #162417;
+        border-radius: 4px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        transition: 0.3s ease-in-out;
+
+        &:hover,
+        &:focus-visible {
+            background-color: #dfc637;
+        }
+    }
+}
